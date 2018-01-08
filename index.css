@@ -1,0 +1,140 @@
+/***************Generelt**************/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+/***************Generelt slut**************/
+
+/* **** menu **** */
+
+header {
+    font-family: 'Saira Extra Condensed';
+    position: fixed;
+    width: 100%;
+    padding: 0em;
+    padding-bottom: 0.5%;
+    background-color: gray;
+    /*opacity: 0.6;*/
+}
+
+
+header ul li {
+    font-family: 'Saira Extra Condensed';
+    margin: 0 0vw 0 0;
+    margin-left: 160px;
+    list-style: none;
+    float: left;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+header ul li a {
+    font-family: 'Saira Extra Condensed';
+    text-decoration: none;
+    color: white;
+    padding-left: 0px;
+    display: block;
+    font-weight: bolder;
+   
+}
+
+header ul li a:hover {
+    /*color: gray;*/
+    background-color: dimgray;
+
+}
+
+
+ul li ul li {
+    display: none;
+
+
+}
+
+
+header ul li:hover ul li {
+    display: block;
+    background-color: gray;
+  
+    
+
+}
+
+
+@media screen and (min-width: 676px) {
+    header nav a {
+        display: inline-block;
+       
+    }
+}
+
+
+/* **** menu slut **** */
+
+/* **** forside **** */
+
+#forside {
+    height: 64vw;
+    width: 98.7vw;
+    background-image: url(images/Forside/portfolio%20forside%20splash%203.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+
+}
+
+@media screen and (min-width: 1025px) and (orientation: landscape) {
+    #splash {
+        background-image: url(images/Forside/portfolio%20forside%20splash%203.jpg);
+        height: 70vw;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+}
+
+#forside h1{
+    font-family: 'Saira Extra Condensed';
+    font-size: 50px;
+    padding-top: 80px;
+    padding-left: 10px;
+}
+
+
+
+/* **** forside slut **** */
+
+/* **** footer **** */
+
+footer .footer {
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 100px;
+    padding-bottom: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Saira Extra Condensed';
+
+}
+
+
+/* **** footer slut **** */

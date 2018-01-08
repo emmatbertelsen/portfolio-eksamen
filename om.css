@@ -1,0 +1,147 @@
+/***************Generelt**************/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+
+/***************Generelt slut**************/
+
+
+/* **** menu **** */
+
+header {
+    font-family: 'Saira Extra Condensed';
+    position: fixed;
+    width: 100%;
+    padding: 0em;
+    padding-bottom: 0.5%;
+    background-color: gray;
+    /*opacity: 0.6;*/
+}
+
+
+header ul li {
+    font-family: 'Saira Extra Condensed';
+    margin: 0 0vw 0 0;
+    margin-left: 160px;
+    list-style: none;
+    float: left;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+header ul li a {
+    font-family: 'Saira Extra Condensed';
+    text-decoration: none;
+    color: white;
+    padding-left: 0px;
+    display: block;
+    font-weight: bolder;
+   
+}
+
+header ul li a:hover {
+    /*color: gray;*/
+    background-color: dimgray;
+
+}
+
+
+ul li ul li {
+    display: none;
+
+
+}
+
+
+header ul li:hover ul li {
+    display: block;
+    background-color: gray;
+  
+    
+
+}
+
+
+@media screen and (min-width: 676px) {
+    header nav a {
+        display: inline-block;
+       
+    }
+}
+
+/* **** menu slut **** */
+
+
+/***************om***************/
+
+#om .section {
+    /*parent*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#om .h2 {
+    font-family: 'Saira Extra Condensed';
+    color: white;
+    padding: 10px;
+    text-align: left;
+    padding-top: 5%;
+}
+
+.sectionwrapper {
+    /*parent*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#om .column {
+    /*child*/
+    flex-basis: 400px;
+    flex-grow: 1;
+    background-color: whitesmoke;
+    padding-bottom: 215px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+#om .column {
+    /*child*/
+    flex-basis: 400px;
+    flex-grow: 1;
+    background-color: whitesmoke;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-right: 100px;
+}
+
+#om .column img{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+#om h3 {
+     font-family: 'Saira Extra Condensed';
+}
+
+/********** om slut **********/
